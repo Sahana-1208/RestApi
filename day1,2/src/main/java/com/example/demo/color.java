@@ -9,7 +9,7 @@ public class color {
 	@GetMapping("/color")
 	public String getMyFav(){
 		String yourFavColor="Green";
-		return "My favorite color is "+yourFavColor;
+		return "My favourite color is "+yourFavColor;
 	}
 
 }

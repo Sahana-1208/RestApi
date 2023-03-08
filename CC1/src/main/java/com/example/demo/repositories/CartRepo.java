@@ -2,8 +2,8 @@ package com.example.demo.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.example.demo.models.Employee;
+import com.example.demo.models.Cart;
 
-public interface EmployeeRepo extends JpaRepository<Employee,Integer>{
+public interface CartRepo extends JpaRepository<Cart,Integer> {
 
 }

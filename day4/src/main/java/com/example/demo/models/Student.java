@@ -9,7 +9,10 @@ public class Student {
 	private int id;
 	private String studentName;
 	private String departmentName;
+	private String section;
+	private long mobile;
 	private String mailid;
+	private String address;
 	public int getId() {
 		return id;
 	}
@@ -28,10 +31,29 @@ public class Student {
 	public void setDepartmentName(String departmentName) {
 		this.departmentName = departmentName;
 	}
+	public String getSection() {
+		return section;
+	}
+	public void setSection(String section) {
+		this.section = section;
+	}
+	public long getMobile() {
+		return mobile;
+	}
+	public void setMobile(long mobile) {
+		this.mobile = mobile;
+	}
 	public String getMailid() {
 		return mailid;
 	}
 	public void setMailid(String mailid) {
 		this.mailid = mailid;
 	}
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	
 }
